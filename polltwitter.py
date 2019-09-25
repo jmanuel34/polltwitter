@@ -1,20 +1,20 @@
 import tweepy
 import codecs
-filepath = './claves.txt'
-consumer_key=''
-consumer_secret= ''
-access_token =''
-access_token_secret=''
-with codecs.open(filepath, 'r', encoding = 'utf-8') as fp:
-#fp= codecs.open(filepath,'r', encoding='utf-8')
-    consumer_key = fp.readline()
-    consumer_key = consumer_key.replace('\n','')
-    consumer_secret = fp.readline()
-    consumer_secret = consumer_secret.replace('\n','')
-    access_token = fp.readline()
-    access_token= access_token.replace('\n','')
-    access_token_secret = fp.readline()
-    access_token_secret = access_token_secret.replace('\n','')
+def readKeys():
+    filepath = './claves.txt'
+#    consumer_key=''
+#    consumer_secret= ''
+#    access_token =''
+#    access_token_secret=''
+    with codecs.open(filepath, 'r', encoding = 'utf-8') as fp:
+        consumer_key = fp.readline()
+        consumer_key = consumer_key.replace('\n','')
+        consumer_secret = fp.readline()
+        consumer_secret = consumer_secret.replace('\n','')
+        access_token = fp.readline()
+        access_token= access_token.replace('\n','')
+        access_token_secret = fp.readline()
+        access_token_secret = access_token_secret.replace('\n','')
 
 print ("Consumer_key" + consumer_key+"Fin")
 print ("Consumer_secret"+ consumer_secret+"Fin")
