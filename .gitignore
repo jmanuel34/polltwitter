@@ -186,4 +186,7 @@ Temporary Items
 .apdisk
 
 # keys
-*.txt
+claves.txt
+
+#users
+usuarios.txt
