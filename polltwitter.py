@@ -4,13 +4,13 @@ import codecs
 filepath = './claves.txt'
 with codecs.open(filepath, 'r', encoding = 'utf-8') as fp:
     consumer_key = fp.readline()
-    consumer_key = consumer_key.replace('\n', '')
+    consumer_key = consumer_key.replace('\r\n', '')
     consumer_secret = fp.readline()
-    consumer_secret = consumer_secret.replace('\n', '')
+    consumer_secret = consumer_secret.replace('\r\n', '')
     access_token = fp.readline()
-    access_token = access_token.replace('\n', '')
+    access_token = access_token.replace('\r\n', '')
     access_token_secret = fp.readline()
-    access_token_secret = access_token_secret.replace('\n', '')
+    access_token_secret = access_token_secret.replace('\r\n', '')
 
 print ("Consumer_key" + consumer_key+"Fin")
 print ("Consumer_secret"+ consumer_secret+"Fin")
