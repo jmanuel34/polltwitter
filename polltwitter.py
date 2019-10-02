@@ -21,19 +21,31 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 file_users = 'usuarios.txt'
-with open (file_users) as fu:
-    user_search = fu.readline()
+users = []
 
-api = tweepy.API(auth)
+with open (file_users) as fu:
+#        user_search = fu.readline()
+    linea = fu.readline()
+    while (linea !=""):
+        users.append(linea)
+        linea = fu.readline()
+        print (linea)
+    fu.close()
+
+print (users)
+
+"""
 def followers_count():
 #    user_search = input("Introduce el usuario del cuál quieres saber el número de seguidores: ")
-    user = api.get_user(user_search)
+    user = api.get_user(users[i])
     return user.followers_count;
+
+api = tweepy.API(auth)
 try:
     api.verify_credentials()
     print("Authentication OK")
 except:
     print("Error during authentication")
-
 print(" ")
 print (followers_count())
+"""
