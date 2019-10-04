@@ -1,0 +1,77 @@
+{"candidaturas":
+[{"categoria":"partido","identificador":{"siglas":"PSOE","nombre":"Partido Socialista Obrero Español", "web":"https://www.psoe.es/", "facebook":"https://www.facebook.com/psoe", "twitter":"@PSOE", "instagram":"https://www.instagram.com/psoe/","youtube":"https://www.youtube.com/user/psoe","flickr":"https://www.flickr.com/photos/psoe",},
+"congreso":{}]
+}
+@sanchezcastejon
+@PSOE
+@populares
+@CiudadanosCs
+@ahorapodemos
+@iunida
+@Equo
+@vox_es
+@Esquerra_ERC
+@SobiranistesCat
+@CatEnComu
+@JuntsXCat
+@eajpnv
+@ehbildu
+@EnComun_Gal
+@PNCanarias
+@navarra_suma  // Upn, Cs, Pp
+@compromis
+@prcantabria
+@PartidoPACMA
+@Front_Republica
+@obloque
+@RecortesCero
+    // Nca nuevacanarias
+@reaccionayactua   // pact por un mundo mas justo, actua
+@MESperMallorca     //ara-mes-esquerra
+@geroabai
+@mundo_mas_justo
+@En_Marea
+@infopcte
+‎@ElPi_IB
+@AndaluciaxSi
+@PCOE_estatal
+@webpcpe
+@AvantLosVerdes
+@escanosenblanco    //@esconsenblanc
+@cpmelilla          //Coalicion por Melilla
+@somosregion        //Somos Region
+                    //Pcpa Partido Comunista del Pueblo Andaluz
+@phumanista_esp     //Partido Humanista
+@Som_Valencians     //UIG-SOM-CUIDES
+                    //Unio y Germania // Coalicion UIG-SOM-CUIDES
+                    //Ciudadanía Unida por la Igualdad y Derechos de una España Solidaria //Coalicion UIG-SOM-CUIDES
+                    //Tierra Aragonesa      //Coalicion UIG-SOM-CUIDES
+@esquerrapv         //Esquerra Republicana del Pais Valencia   //ERPV     //http://locals.esquerra.cat/paisvalencia/
+@IzqEnPositivo      //Izquierda en Positivo     //IZQP      //https://izquierdaenpositivo.es/
+@PCPC_info          //Partido Comunista del Poble de Catalunya  //https://pcpc.cat/
+                    //Ahora Canarias                            // https://ahoracanarias.org/
+@Compromiso_gal     //Compromiso por Galicia        //CxG       //https://www.compromiso.gal/
+                    //Plataforma del pueblo Soriano     //PPSO      // https://sites.google.com/site/plataformadelpueblosoriano/
+                    //Convergents               //CNV               // https://www.convergents.org/
+                    //Partido Regionalista del País Leonés    //PREPAL    //
+                    //Extremeños PREX CREX                          //	C.Ex-C.R.Ex-P.R.Ex
+@PartidoRiojano     //Partido Riojano   //PR+   // http://www.partidoriojano.es/
+@partidolibertad    //Partido Libertari //P-LIB //http://www.p-lib.es/
+                    //Cilu Linares      //CILU-LINARES  // https://cilu-linares.eu/
+@andechaastur       //Andecha Astur     //ANDECHA ASTUR             // https://www.andecha.org/
+                    //Partido de Jubilados por el Futuro. Dignidad y Democracia                  //"JF"
+                    //Puyalon   //PYLN
+                    //Frente de Independientes de Aragon    //FIA       //http://www.fia-independientes.es/
+FE de las JONS  // Falange Española de las JONS //https://es.wikipedia.org/wiki/Falange_Espa%C3%B1ola_de_las_JONS //@fedelasjons
+Solidaria       //Partido de Accion Solidaria   //
+F8              //Feminism8         //http://FEMiNiSM8.org
+DPL         //Democracia Plural     //https://democraciaplural.es/ //@DEMOCRACIPLURAL //Democracia Plural Murcia
+Union Regionalista //Union Regionalista de Castilla y Leon // https://unionregionalistacyl.wordpress.com/
+Centrados   //Centrados     //https://www.centrados.es/     //@Centrados_Sg //https://www.facebook.com/centrados.segovia/   //https://www.instagram.com/centrados.segovia/?hl=es
+DP  //Defensa de lo publico
+PDSJE   //Partido Democrata Social de Jubilados Europeos   // https://pdsje-com.webnode.es/
+IZAR    //Inzquierda Anticapitalista Revolucionaria     //http://izar-revolucion.org/   //@IZAR_Rev //https://www.facebook.com/IzquierdaAnticapitalistaRevolucionaria/?fref=nf  //https://www.youtube.com/channel/UCWqWvVr2LlZhzo2Ye05xeyg
+RISA    //Partido Republicano Independiente Solidario Andaluz    //  //@PartidoRisa //https://www.facebook.com/pages/category/Political-Party/Partido-de-la-RISA-255141001237914/
+C 21    //Converxencia 21   //http://converxencia.eu/   //
++MAS+   //Muerte al Sistema //http://www.actiweb.es/muertealsistema/mas.html    //
+UDt     //Union de Todos    //http://www.uniondetodos.org/
