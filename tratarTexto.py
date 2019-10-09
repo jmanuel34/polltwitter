@@ -1,18 +1,29 @@
 import csv, operator
 import codecs
-file = codecs.open('Representantes.csv', 'r','utf-8')
-entrada = csv.reader(file, delimiter=';')
-for row in entrada:
+import json
 
-    candidatura, provincia, candidatos, nombreyApellidos=row
+file = codecs.open('CandidatosElectos-2019-04-Test.csv', 'r','cp1252')
+entrada = csv.reader(file, delimiter=';')
+candidaturas = []
+for row in entrada:
+    cuenta = {}
+    candidatura, provincia, candidatos, nombre, twitter, web, facebook = row
+
     if candidatura !='':
         candidaturaNew = candidatura
     if provincia !='':
         provinciaNew = provincia
-
-    print ("Candidatura " + candidaturaNew, "Provincia "+provinciaNew, "Nombre "+ nombreyApellidos)
-
+    cuenta["candidatura"] = candidaturaNew
+    cuenta["povincia"] = provinciaNew
+    cuenta["nombre"]= nombre
+    cuenta["twitter"]= twitter
+    cuenta["web"]= web
+    cuenta["facebook"]=facebook
+    print (cuenta["twitter"])
+    candidaturas.append(cuenta)
 file.close()
+with open("results.json","w") as results_file:
+    json.dump(candidaturas, results_file, indent=4, sort_keys=True, ensure_ascii=False)
 """
 reg = next(entrada)  # Leer registro (lista)
 print(reg)  # Mostrar registro

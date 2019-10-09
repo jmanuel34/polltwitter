@@ -1,0 +1,34 @@
+[
+    {
+        "candidatura": "Candidatura",
+        "facebook": "facebook",
+        "nombre": "Nombre yApellidos",
+        "povincia": "Provincia",
+        "twitter": "twitter",
+        "web": "web"
+    },
+    {
+        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "facebook": "",
+        "nombre": "",
+        "povincia": "Provincia",
+        "twitter": "@PSOE",
+        "web": ""
+    },
+    {
+        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "facebook": "mifacebook@facebook.com",
+        "nombre": "Pilar Cancela Rodríguez",
+        "povincia": "A Coruña",
+        "twitter": "@PruebaJm",
+        "web": "web@miweb.com"
+    },
+    {
+        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "facebook": "",
+        "nombre": "Pablo Arangüena Fernández",
+        "povincia": "A Coruña",
+        "twitter": "",
+        "web": ""
+    }
+]
