@@ -1,8 +1,7 @@
 import csv, operator
 import codecs
 import json
-
-file = codecs.open('CandidatosElectos-2019-04-Test.csv', 'r','cp1252')
+file = codecs.open('CandidatosElectos-2019-04.csv', 'r','cp1252')
 entrada = csv.reader(file, delimiter=';')
 candidaturas = []
 for row in entrada:

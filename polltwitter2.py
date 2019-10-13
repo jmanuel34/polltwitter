@@ -1,6 +1,4 @@
 import codecs
-import time
-
 import tweepy
 import json
 filepath = './claves.txt'
@@ -29,21 +27,33 @@ try:
     print("Authentication OK")
 except:
     print("Error during authentication")
+print(" ")
 
 def followers_count(cuenta):
-#    user_search = input("Introduce el usuario del cuÃ¡l quieres saber el nÃºmero de seguidores: ")
+#    user_search = input("Introduce el usuario del cuál quieres saber el número de seguidores: ")
     user = api.get_user(cuenta)
     return user.followers_count;
 
-file_users = 'CandidatosElectos-2019-04.csv'
-with open("results.json","r") as results_file:
-    data = json.load(results_file)
-    fileOut = time.strftime("%Y%m%d-%H%M%S")
-#    with open(fileOut, 'w') as outfile:
-#        json.dump(data, outfile)
+with open("results.json", "r") as json_file:
+    data = json.load(json_file)
     for p in data['cuenta']:
+        user = api.get_uset(p['twitter'])
+        print ("Nombre: "+ p['twitter'])
+        print ("Seguidores de Twitter:" + followers_count(p['twitter']))
+    json_file.close()
 
-        print ("Nombre "+ p['nombre'])
-        print ("twitter " + p['twitter'])
-        if (p['twitter'] != ''):
-            print("Nombre: "+ str(followers_count(p['twitter'])))
+"""
+def followers_count():
+#    user_search = input("Introduce el usuario del cuál quieres saber el número de seguidores: ")
+    user = api.get_user("@psoe")
+    return user.followers_count;
+
+api = tweepy.API(auth)
+try:
+    api.verify_credentials()
+    print("Authentication OK")
+except:
+    print("Error during authentication")
+print(" ")
+print (followers_count())
+"""

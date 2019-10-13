@@ -1,34 +1,84 @@
-[
-    {
-        "candidatura": "Candidatura",
-        "facebook": "facebook",
-        "nombre": "Nombre yApellidos",
-        "povincia": "Provincia",
-        "twitter": "twitter",
-        "web": "web"
-    },
-    {
-        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPA—OL",
-        "facebook": "",
-        "nombre": "",
-        "povincia": "Provincia",
-        "twitter": "@PSOE",
-        "web": ""
-    },
-    {
-        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPA—OL",
-        "facebook": "mifacebook@facebook.com",
-        "nombre": "Pilar Cancela RodrÌguez",
-        "povincia": "A CoruÒa",
-        "twitter": "@PruebaJm",
-        "web": "web@miweb.com"
-    },
-    {
-        "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPA—OL",
-        "facebook": "",
-        "nombre": "Pablo Arang¸ena Fern·ndez",
-        "povincia": "A CoruÒa",
-        "twitter": "",
-        "web": ""
-    }
-]
+{
+    "cuenta": [
+        {
+            "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPA√ëOL",
+            "facebook": "",
+            "nombre": "PARTIDO SOCIALISTA OBRERO ESPA√ëOL",
+            "provincia": "",
+            "twitter": "@PSOE",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Pilar Cancela Rodr√≠guez",
+            "provincia": "A Coru√±a",
+            "twitter": "@PiliCancela",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Pablo Aranguena Fern√°ndez",
+            "provincia": "",
+            "twitter": "@PabloAranguena",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Mar√≠a Montserrat Garc√≠a Chavarr√≠a",
+            "provincia": "",
+            "twitter": "",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Manuel Gabriel Gonz√°lez Ramos",
+            "provincia": "Albacete",
+            "twitter": "",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Mar√≠a Luisa Vilches Ruiz",
+            "provincia": "",
+            "twitter": "",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Pedro Francisco Duque Duque",
+            "provincia": "Alicante / Alacant",
+            "twitter": "@astro_duque",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Patricia Blanquer Alcaraz",
+            "provincia": "",
+            "twitter": "@Patri_Blanquer",
+            "web": "http://www.patriciablanquer.es/"
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Alejandro Soler Mur",
+            "provincia": "",
+            "twitter": "@AlejandroSolerM",
+            "web": ""
+        },
+        {
+            "candidatura": "",
+            "facebook": "",
+            "nombre": "Yolanda Seva Ruiz",
+            "provincia": "",
+            "twitter": "@YOLANDASEVARUIZ",
+            "web": ""
+        }
+    ]
+}
