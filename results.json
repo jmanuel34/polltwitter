@@ -1,9 +1,9 @@
 {
-    "cuenta": [
+    "cuentas": [
         {
-            "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPAÃ‘OL",
+            "candidatura": "PSOE - PARTIDO SOCIALISTA OBRERO ESPAÑOL",
             "facebook": "",
-            "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÃ‘OL",
+            "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
             "provincia": "",
             "twitter": "@PSOE",
             "web": ""
@@ -11,15 +11,15 @@
         {
             "candidatura": "",
             "facebook": "",
-            "nombre": "Pilar Cancela RodrÃ­guez",
-            "provincia": "A CoruÃ±a",
+            "nombre": "Pilar Cancela Rodríguez",
+            "provincia": "A Coruña",
             "twitter": "@PiliCancela",
             "web": ""
         },
         {
             "candidatura": "",
             "facebook": "",
-            "nombre": "Pablo Aranguena FernÃ¡ndez",
+            "nombre": "Pablo Aranguena Fernández",
             "provincia": "",
             "twitter": "@PabloAranguena",
             "web": ""
@@ -27,7 +27,7 @@
         {
             "candidatura": "",
             "facebook": "",
-            "nombre": "MarÃ­a Montserrat GarcÃ­a ChavarrÃ­a",
+            "nombre": "María Montserrat García Chavarría",
             "provincia": "",
             "twitter": "",
             "web": ""
@@ -35,7 +35,7 @@
         {
             "candidatura": "",
             "facebook": "",
-            "nombre": "Manuel Gabriel GonzÃ¡lez Ramos",
+            "nombre": "Manuel Gabriel González Ramos",
             "provincia": "Albacete",
             "twitter": "",
             "web": ""
@@ -43,7 +43,7 @@
         {
             "candidatura": "",
             "facebook": "",
-            "nombre": "MarÃ­a Luisa Vilches Ruiz",
+            "nombre": "María Luisa Vilches Ruiz",
             "provincia": "",
             "twitter": "",
             "web": ""

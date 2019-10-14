@@ -36,14 +36,28 @@ def followers_count(cuenta):
     return user.followers_count;
 
 file_users = 'CandidatosElectos-2019-04.csv'
-with open("results.json","r") as results_file:
+
+with open("cuentas.json","r") as results_file:
     data = json.load(results_file)
+    seguidores = {}
+    seguidores ['cuentas'] =[]
     fileOut = time.strftime("%Y%m%d-%H%M%S")
 #    with open(fileOut, 'w') as outfile:
 #        json.dump(data, outfile)
-    for p in data['cuenta']:
+    for p in data['cuentas']:
 
         print ("Nombre "+ p['nombre'])
         print ("twitter " + p['twitter'])
+
         if (p['twitter'] != ''):
-            print("Nombre: "+ str(followers_count(p['twitter'])))
+            try:
+                cuenta = {}
+                nombreCuenta = p['twitter']
+                cuenta["twitter"] = p['twitter']
+                cuenta['seguidores'] =  (str(followers_count(p['twitter'])))
+                print("Seguidores: " + str(followers_count(p['twitter'])))
+                seguidores['cuentas'].append(cuenta)
+            except:
+                print ("Error de nombre de cuenta "+ nombreCuenta)
+    with open("seguidores"+fileOut+".json", "w") as results_file:
+        json.dump(seguidores, results_file, indent=4, sort_keys=True, ensure_ascii=False)
